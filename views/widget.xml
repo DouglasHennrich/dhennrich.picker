@@ -1,0 +1,16 @@
+<Alloy>
+    <View id="DHpickerBG" class="DHpickerBG">
+        <View id="DHpickerView" class="DHpickerView">
+            <View id="DHpickerButtonView">
+                <!-- CancelarBtn -->
+                <Button id="DHpickerCancelarBtn" class="DHpickerCancelarBtn" onClick="_cancelFunc"/>
+
+                <!-- SelecionarBtn -->
+                <Button id="DHpickerSelecionarBtn" class="DHpickerSelecionarBtn" onClick="_selectFunc"/>
+            </View>
+
+            <!-- Fake Picker -->
+            <TableView id="DHpicker" onClick="_touchRow"/>
+        </View>
+    </View>
+</Alloy>

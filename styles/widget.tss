@@ -1,0 +1,51 @@
+//
+".DHpickerBG": {
+    backgroundColor: "#8000"
+  , visible: false
+  , height: Ti.UI.FILL
+  , width: Ti.UI.FILL
+}
+
+//
+".DHpickerView":{
+    height: 260
+  , bottom: -260
+  , width: Ti.UI.FILL
+  , layout: 'vertical'
+  , backgroundColor: "#fff"
+}
+
+//
+"#DHpickerButtonView":{
+    height: 40
+  , top: 0
+  , width: Ti.UI.FILL
+}
+
+//
+".DHpickerCancelarBtn":{
+    left: "5%"
+  , backgroundColor: "transparent"
+  , title: "Cancelar"
+  , color: "#1c1c1c"
+  , font: { fontSize: 18, fontFamily: "OpenSans" }
+}
+
+//
+".DHpickerSelecionarBtn":{
+    right: "5%"
+  , backgroundColor: "transparent"
+  , title: "Selecionar"
+  , color: "#1c1c1c"
+  , font: { fontSize: 18, fontFamily: "OpenSans" }
+}
+
+//
+"#DHpicker":{
+    top: 0
+  , height: Ti.UI.FILL
+  , separatorColor: "transparent"
+}
+"#DHpicker[platform=ios]":{
+    selectionStyle: Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE
+}

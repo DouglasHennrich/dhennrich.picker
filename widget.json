@@ -1,0 +1,13 @@
+{
+	"id": "dhennrich.picker",
+	"name": "dhennrich.picker",
+	"description" : "Cross-Platform Fake Picker",
+	"author": "Douglas Hennrich",
+	"version": "0.0.1",
+	"copyright":"Copyright (c) 2015",
+	"license":"Apache License, Version 2.0",
+	"min-alloy-version": "1.4",
+	"min-titanium-version":"3.2",
+	"tags":"picker",
+	"platforms":"android,ios"
+}
