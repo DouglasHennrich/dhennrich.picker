@@ -28,7 +28,7 @@ Add the widget below all your code.
 
 ### JS
 
-When you want to display an alert
+When you want to display the picker
 
 ```js
 /*
